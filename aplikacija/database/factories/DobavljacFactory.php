@@ -14,7 +14,11 @@ class DobavljacFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'naziv' => $this->faker->word(),
+            'adresu' => $this->faker->streetAddress(),
+            'kontakt' =>  $this->faker->phoneNumber(),
+       
+
         ];
     }
 }

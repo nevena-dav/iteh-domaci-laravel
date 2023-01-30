@@ -14,6 +14,7 @@ class Proizvod extends Model
         'cena',
         'kolicina',
         'kategorija_id',
+        'dobavljac_id',
         'nabavna_cena',
 
 
