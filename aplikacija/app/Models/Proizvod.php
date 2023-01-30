@@ -14,6 +14,8 @@ class Proizvod extends Model
         'cena',
         'kolicina',
         'kategorija_id',
+        'nabavna_cena',
+
 
     ];
     public function kategorija()

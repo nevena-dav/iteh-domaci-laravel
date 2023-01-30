@@ -15,6 +15,10 @@ class CreateDobavljacsTable extends Migration
     {
         Schema::create('dobavljacs', function (Blueprint $table) {
             $table->id();
+            $table->string('naziv');
+            $table->string('adresu');
+            $table->string('kontakt');
+
             $table->timestamps();
         });
     }
